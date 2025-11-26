@@ -58,10 +58,24 @@
             display: block;
             margin: 0 auto;
         }
-        
+
         .greeting {
             text-align: justify;
             margin-bottom: 20px;
+            font-size: 13pt;
+            font-weight: 500;
+        }
+
+        .features-list {
+            max-width: 900px;
+            margin: 0 auto 20px auto;
+            padding-left: 40px;
+            text-align: left;
+        }
+        
+        .features-list li {
+            margin-bottom: 10px;
+            line-height: 1.6;
         }
         
         .products-table {
@@ -96,6 +110,9 @@
         .closing {
             text-align: justify;
             margin-bottom: 20px;
+            font-size: 13pt;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         
         /* Editable fields styling */
@@ -180,7 +197,7 @@
 Алматы обл., Iлi ауд, Аскар Токпанов с., Менделеев к-сi, 55
 БИН: 221040014989</td>
             <td class="logo-cell">
-                <img src="logo_new2.svg" alt="Logo" contenteditable="false">
+                <img src="/Users/bobabane/Downloads/logo_new2.svg" alt="Logo" contenteditable="false">
             </td>
             <td class="company-info">ТОО «ALCAS Almaty»
 040718,  Республика  Казахстан
@@ -190,8 +207,14 @@
     </table>
 
     <!-- Greeting -->
-    <p class="greeting" data-placeholder="Введите приветствие" style="text-align: center;">ТОО «ALCAS Almaty» выражает Вам свое уважение и признательность, а так же готово предоставить всю линейку готовой продукции!</p>
-
+    <p class="greeting" style="text-align: center;">ТОО «ALCAS Almaty» выражает Вам свое уважение и признательность, а так же готово предоставить всю линейку готовой продукции!</p>
+    <!-- Features List -->
+    <ul class="features-list">
+        <li>Технологическим ядром предприятия является бетонный завод SPECO SBP210 (пр-во Ю. Корея). <strong><u>Паспортная мощность завода 210 кубов/час</u></strong>, лидер по производительности в Алматинской области. (Уникальная автоматизированная технология)</li>
+        <li>Собственная  лаборатория по контролю качества исходного сырья и отпускной продукции (при поддержке КазНИИ)</li>
+        <li>Профессиональная оперативность и точность поставок. <strong><u>Более 40 единиц спец.техники:</u></strong> автобетоносмесители более 25 ед., бетононасосы от 37-56-62 м.</li>
+    </ul>
+    <br>
     <!-- Products Table -->
     <table class="products-table" id="productsTable">
         <thead>
